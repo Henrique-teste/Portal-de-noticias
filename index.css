@@ -1,0 +1,62 @@
+#noticias-gerais{
+    border-left: solid 2px #0000002c;
+}
+header{
+    background-color:rgb(10, 136, 10);
+    border-radius: 10px;
+    color: #fff;
+}
+.navbar a {
+    color: #fff;
+}
+#futebol-color{
+    padding: 20px;
+}
+.futebol-topico01 p {
+    font-size: 12px;
+}
+.futebol-topico01 h3 {
+    color: red;
+}
+.futebol-topico01 img {
+    height: 200px;
+}
+#Futebol thead h5 {
+    font-size: 20px;
+}
+#noticias-gerais tbody td img{
+    align-items: center;
+    height: 25px;
+}
+#noticias-gerais tbody strong{
+    font-size: 20px;
+    color:#0000007e;
+}
+
+#noticias-gerais h4 {
+    font-size: 20px;
+}
+#Futebol h2, #aside h3 {
+    color: green;
+}
+#aside img{
+    height: 40px;
+}
+#aside strong #placar{
+    color:#000;
+}
+.times{
+    color: #0000007e;
+}
+@media(max-width:575px){
+    .col-lg-9{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #noticias-gerais table h4{
+        margin-bottom: 11px;
+    }
+    #tbody{
+        border-bottom: solid 2px #0000002c;
+    }
+    }
